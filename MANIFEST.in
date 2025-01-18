@@ -1,0 +1,15 @@
+# Include important project-level files
+include README.md
+include LICENSE
+include setup.py
+
+# Include all Python files in the AgriSatRef package
+recursive-include AgriSatRef *.py
+
+# Include data files in the dbflow package
+recursive-include AgriSatRef *.json
+recursive-include AgriSatRef *.txt
+
+# Exclude unnecessary files
+exclude *.log
+prune tests/
