@@ -27,7 +27,7 @@ The script `main.py` demonstrates the case example for the RCM Project, covering
 As an input, it requires **high-resolution classification** and a **coarse-resolution data grid** to be downscaled to.
 
 ### **Figure 1: Reference Dataset Creation Workflow**
-![Reference dataset creation workflow](https://raw.githubusercontent.com/Aranil/AgriSatRef/main/_images/Figure_Workflow_Steps.png)
+![Reference dataset creation workflow](https://github.com/Aranil/AgriSatRef/blob/main/_images/Figure_Workflow_Steps.png)
 
 [View Full-Sized Image](https://github.com/Aranil/AgriSatRef/blob/main/_images/Figure_Workflow_Steps.png)
 
