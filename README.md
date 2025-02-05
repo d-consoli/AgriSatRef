@@ -22,3 +22,24 @@ custom_sql_dir = ./custom/sql
 custom_db_structure = ./custom/db_structure.py
 executed_sql_dir = ../_sql_executed
 ```
+The script `main.py` demonstrates the case example for the RCM Project, covering all steps presented in **Figure 1**.
+
+As an input, it requires **high-resolution classification** and a **coarse-resolution data grid** to be downscaled to.
+
+### **Figure 1: Reference Dataset Creation Workflow**
+![Reference dataset creation workflow](https://raw.githubusercontent.com/Aranil/AgriSatRef/main/_images/Figure_Workflow_Steps.png)
+
+[View Full-Sized Image](https://github.com/Aranil/AgriSatRef/blob/main/_images/Figure_Workflow_Steps.png)
+
+
+Step 4 is currently under development.
+
+STAC Conversion & Zenodo Bulk Upload Status
+
+Certain parts of the scripts for converting data to STAC format and uploading bulk data to Zenodo are still under development. These functionalities are in progress, and some features may not be fully operational. Users should expect potential modifications and improvements in upcoming updates.
+- io_handler/stac_generator.py
+- io_handler/zenodo_helper.py
+
+
+Contributors: [Panos Koutsikos](https://github.com/PanosKoutsikos), 
+              [Christoph Liedel](https://github.com/Flunsiana)
