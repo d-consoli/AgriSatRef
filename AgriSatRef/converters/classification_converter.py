@@ -591,7 +591,6 @@ class ClassificationDownscaler:
             print(type(layer_data))
 
 
-            # Assuming gdf is your GeoDataFrame
             if layer_data.crs is not None:
                 print("GeoDataFrame has a CRS:", layer_data.crs)
             else:

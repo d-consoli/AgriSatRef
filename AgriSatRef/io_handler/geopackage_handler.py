@@ -171,7 +171,7 @@ class GeoPackageHandler:
         dtype (rasterio dtype, optional): Data type of the output raster.
         """
         # Ensure the data is a Dask array
-        data_array = data_array.chunk({'x': -1, 'y': -1})  # Adjust chunking to your needs
+        data_array = data_array.chunk({'x': -1, 'y': -1})
 
         # Open a new raster file with write access
         with rasterio.open(
@@ -282,12 +282,12 @@ class GeoPackageHandler:
             #----------------------------------------------------------------------------
 
             # Example usage
-            transform = bs_divided.rio.transform()  # Assuming bs_divided is a DataArray with rio accessor
+            transform = bs_divided.rio.transform()
             GeoPackageHandler.write_raster_with_dask(bs_divided, pattern_file, transform, bs_divided.rio.crs)
 
             #----------------------------------------------------------------------------
 
-            # Convert your raster array to a dask array for chunked processing
+            # Convert raster array to a dask array for chunked processing
             # Clear up resources
             del bs_divided
             gc.collect()
