@@ -1,0 +1,26 @@
+name: uav_test
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal
+  - geocube
+  - rasterstats
+  - dask
+  - pystac
+  - fiona
+  - proj  # Ensure proj is explicitly installed
+  - pip
+  - pip:
+      - python-decouple
+      - rasterio
+      - fiona
+      - py7zr
+      - scikit-image
+      - opencv-python
+      - seaborn
+      - zarr
+      - cartopy
+      - git+ssh://git@github.com/Aranil/dbflow.git
+
+# run conda env create -f ..\AgriSatRef\AgriSatRef\environment.yml
