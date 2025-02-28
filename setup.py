@@ -26,7 +26,7 @@ setup(
     ],
     python_requires='>=3.10',
     install_requires=[
-        "dbflow @ git+ssh://git@github.com/Aranil/dbflow.git@main"
+        "dbflow @ git+https://github.com/Aranil/dbflow.git@main"
     ],
 )
 
