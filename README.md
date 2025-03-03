@@ -1,10 +1,13 @@
 # AgriSatRef
 A module for downscaling high-resolution spatial information and organizing it into an xarray dataset.
 
+To install the module run
+
+pip install AgriSatRef@git+https://github.com/Aranil/AgriSatRef.git@main to install package
 
 ## Database Integration with dbflow (SQLite)
 
-For SQLite database functionality, the dbflow package can be installed to manage database connections and execute SQL queries efficiently.
+For SQLite database functionality, the [dbflow](https://github.com/Aranil/dbflow) package can be installed to manage database connections and execute SQL queries efficiently.
 ### Custom SQL Query Management
 
     Custom Folder: If your database contains geoinformation or requires additional organization, you can create a custom folder within the module to store your SQL queries.
