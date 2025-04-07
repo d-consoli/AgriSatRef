@@ -3,8 +3,8 @@ message: "If you use AgriSatRef in your work, please cite it as below."
 title: "AgriSatRef"
 version: "1.0.0"
 authors:
-  - family-names: "Aranil"
-    given-names: "Linara Arslanova, Panagiotis Koutsikos, Christoph Liedel"
+  - family-names: " Arslanova, Koutsikos, Liedel"
+    given-names: "Linara, Panagiotis, Christoph"
     orcid: "https://orcid.org/0009-0002-5354-7344"
 date-released: 2025-02-05
 url: "https://github.com/Aranil/AgriSatRef"
