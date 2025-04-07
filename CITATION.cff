@@ -12,3 +12,5 @@ repository-code: "https://github.com/Aranil/AgriSatRef"
 license: "MIT"
 type: "software"
 abstract: "A module for downscaling high-resolution spatial information and organizing it into an xarray dataset."
+acknowledgements: >
+    This project was carried out in the frame of the project *Radar-Crop-Monitor*, which was financed by the Federal Ministry for Economic Affairs and Climate Action (BMWK), Germany, under the support code FKZ: 50EE1901.
