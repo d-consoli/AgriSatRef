@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use AgriSatRef in your work, please cite it as below."
+title: "AgriSatRef"
+version: "1.0.0"
+authors:
+  - family-names: "Aranil"
+    given-names: "Linara Arslanova, Panagiotis Koutsikos, Christoph Liedel"
+    orcid: "https://orcid.org/0009-0002-5354-7344"
+date-released: 2025-02-05
+url: "https://github.com/Aranil/AgriSatRef"
+repository-code: "https://github.com/Aranil/AgriSatRef"
+license: "MIT"
+type: "software"
+abstract: "A module for downscaling high-resolution spatial information and organizing it into an xarray dataset."
