@@ -75,5 +75,5 @@ Examples of how to use the module **AgriSatRef**, along with sample input data, 
 - Final outputs are stored in the **`ref_dataset/`** folder.
 
 
-Contributors: [Panos Koutsikos](https://github.com/PanosKoutsikos), 
+Contributors: [Panagiotis Koutsikos](https://github.com/PanosKoutsikos), 
               [Christoph Liedel](https://github.com/Flunsiana)
