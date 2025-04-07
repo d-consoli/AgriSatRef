@@ -77,3 +77,9 @@ Examples of how to use the module **AgriSatRef**, along with sample input data, 
 
 Contributors: [Panagiotis Koutsikos](https://github.com/PanosKoutsikos), 
               [Christoph Liedel](https://github.com/Flunsiana)
+
+
+## Citation
+If you use this project in your work, please cite it using the information in the [CITATION.cff](./CITATION.cff) file or via the "Cite this repository" button on GitHub.
+
+Thank you for supporting open science! 🙌
